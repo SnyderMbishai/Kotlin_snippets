@@ -18,10 +18,10 @@ fun main(){
     val myPair = "You" onto "Me"
     println(myPair)
 
-    val Red = Person("Red")
-    val Yellow = Person("Yellow")
-    Red likes Yellow
-    println(Red.likedPeople)
+    val red = Person("Red")
+    val yellow = Person("Yellow")
+    red likes yellow
+    println(red.likedPeople)
 }
 
 class Person(val name: String){
